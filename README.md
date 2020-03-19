@@ -22,7 +22,7 @@
 
 ## Usage
 * Download the Release folder
-* In Windows command, go to the download folder and run **Okapi.exe*
+* In Windows command, go to the download folder and run **Okapi.exe**
   * **Okapi.exe help** --> get help
   * **Okapi.exe** then hit enter --> run Okapi listening on **http://localhost:4476** (4476 is the default port)
   * **Okapi.exe -ip your_machine_ip -port your_port** --> run Okapi listening on ip and port specified by you
