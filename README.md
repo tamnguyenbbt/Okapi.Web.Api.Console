@@ -5,20 +5,20 @@
 ### Search: search by anchors, returning possible xpaths
 * Type: POST
 * Resource: **/search**
-* Input: RequestDTO
-* Output: ManagedXPaths object
+* Input: **SearchRequestDTO**
+* Output: **ResponseDTO** which contains **ManagedXPaths** object
 
 ### Record: return possible xpaths for all usable web elements on a html document
 * Type: POST
 * Resource: **/record**
-* Input: RecordRequestDTO
-* Output: ManagedXPaths object
+* Input: **RecordRequestDTO**
+* Output: **ResponseDTO** which contains **ManagedXPaths** object
 
 ### Count: count all usable web elements in a html document
 * Type: POST
 * Resource: **/count**
-* Input: html content text
-* Output: number of the usable web elements in the provided html document
+* Input: html content text (string)
+* Output: **ElementCountResponseDTO** which contains the number of the usable web elements in the provided html document
 
 ## Usage
 * Download the Release folder
