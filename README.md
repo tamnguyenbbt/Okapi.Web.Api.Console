@@ -28,4 +28,4 @@
   * Okapi.exe -ip <your machine ip> -port <your specified port> --> run Okapi listening on ip and port specified by you
   
 ## Call API endpoints
-* See 
+* See https://github.com/tamnguyenbbt/Okapi.Web.Api.Console/blob/master/Okapi.Web.Api.Console.Test for examples of API calls and the Data Transfer Objects (DTOs) of the API.
