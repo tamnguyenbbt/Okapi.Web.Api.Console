@@ -23,9 +23,9 @@
 ## Usage
 * Download the Release folder
 * In Windows command, go to the download folder and run **Okapi.exe*
-  * Okapi.exe help --> get help
-  * Okapi.exe then hit enter --> run Okapi listening on **http://localhost:4476** (4476 is the default port)
-  * Okapi.exe -ip <your machine ip> -port <your specified port> --> run Okapi listening on ip and port specified by you
+  * **Okapi.exe help** --> get help
+  * **Okapi.exe** then hit enter --> run Okapi listening on **http://localhost:4476** (4476 is the default port)
+  * **Okapi.exe -ip your_machine_ip -port your_port** --> run Okapi listening on ip and port specified by you
   
 ## Call API endpoints
 * See https://github.com/tamnguyenbbt/Okapi.Web.Api.Console/blob/master/Okapi.Web.Api.Console.Test for examples of API calls and the Data Transfer Objects (DTOs) of the API.
